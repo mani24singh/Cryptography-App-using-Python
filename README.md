@@ -50,5 +50,27 @@ Developing a cryptography app in python to encrypt and decrypt a normal text mes
    - Step3: Go inside the folder and go into new options and select python 3.
    - Step4: Name the python notebook.
    - Step5: Type the code in the cell. And to run the code press shift+enter
-
-
+ 
+ ## Modules & Packages:- 
+- Modules are nothing but a file (with .py extension) which we can import into a particular program
+- Group of modules(python files) is known as package 
+### Pypi.org :
+- pypi.org is a website where we all can get different libraries which we can use for a different purpose.
+- How to install a library from pypi.org
+   - Go to pypi.org.
+   - Search for a library according to your need.
+   - Copy the text which says “pip install library name”.
+   - In Jupyter notebook type “!” and paste the content and run the cell.
+   - The library is installed on the local machine
+### How to create our module:
+   - Modules are created using a special keyword which is only for Jupyter notebook and Google Colab.
+   - Create a module by
+       - %%writefile ModuleName.py
+       - #And write a python code
+   - Import the module in another program and use the functions inside the module
+      - import ModuleName
+      - ModuleName.FunctionName()
+### How to create Package:-
+- Make a folder and rename it(That is your package name)
+- Now we can import a module through the package, like
+   - from packageName import moduleName
